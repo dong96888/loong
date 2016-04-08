@@ -1,0 +1,43 @@
+/*
+*   File name: Address.cpp
+*	 Describe: 工作线程池类，创建数个工作线程
+*  Created on: 2015-6-12
+*      Author: dengxiudong
+*/
+
+#ifndef _TCP_CLIENT_H_
+#define _TCP_CLIENT_H_
+
+#include "TcpConn.h"
+#include "Thread.h"
+
+#include <functional>
+
+using namespace std;
+
+namespace loong
+{
+	class TcpClient :Thread
+	{
+	public:
+		TcpClient(string ip, uint16_t port);
+		~TcpClient();
+
+		TcpConn * connect();
+		TcpConn * reconnect();
+
+		void run();
+
+		int addEpoll(TcpConn *conn, int events);
+		int delEpoll(int sockfd);
+
+		void closeSocket(TcpConn * conn);
+
+	private:
+		int m_epfd;
+		string m_ip;
+		uint16_t m_port;
+	};
+}
+
+#endif  

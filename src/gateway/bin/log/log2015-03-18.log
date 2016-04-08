@@ -1,0 +1,12 @@
+[2015-03-18 17:54:48:540 DEBUG] ../Comm/TcpServer.cpp:67 Start thread pool
+[2015-03-18 17:54:48:540 DEBUG] ../Comm/TcpServer.cpp:77 start send thread!
+[2015-03-18 17:54:48:541 DEBUG] ../Comm/TcpServer.cpp:118 start server listen
+[2015-03-18 17:54:48:541 DEBUG] ../Comm/TcpServer.cpp:128 add listen port to epoll
+[2015-03-18 17:54:48:541 INFO] ../Comm/TcpServer.cpp:170 recv write event recv write event recv write eventrecv write eventrecv write eventrecv write eventrecv write eventrecv write eventrecv write eventrecv write event recv write eventrecv write eventrecv write eventrecv write event
+[2015-03-18 18:18:04:184 DEBUG] ../Comm/TcpServer.cpp:67 Start thread pool
+[2015-03-18 18:18:04:184 DEBUG] ../Comm/TcpServer.cpp:77 start send thread!
+[2015-03-18 18:18:04:195 DEBUG] ../Comm/TcpServer.cpp:118 start server listen
+[2015-03-18 18:18:04:195 DEBUG] ../Comm/TcpServer.cpp:128 add listen port to epoll
+[2015-03-18 18:18:04:195 INFO] ../Comm/TcpServer.cpp:170 recv write event recv write event recv write eventrecv write eventrecv write eventrecv write eventrecv write eventrecv write eventrecv write eventrecv write event recv write eventrecv write eventrecv write eventrecv write event
+[2015-03-19 11:12:29:676 INFO] ../Comm/TcpServer.cpp:161 recv one read messagerecv one read messagerecv one read messagerecv one read messagerecv one read message recv one read messagerecv one read messagerecv one read messagerecv one read messagerecv one read messagerecv one read message recv one read messagerecv one read messagerecv one read message
+[2015-03-19 11:12:29:677 DEBUG] ../Comm/WorkThread.cpp:87 %%%%%%--begin enter work thread proc queue--%%%%%%%%
